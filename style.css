@@ -1,0 +1,288 @@
+body{
+	padding:0;
+	margin:0;
+	font-family: 'Montserrat', sans-serif;
+}
+.main-head{
+	padding-top:30px;
+	padding-bottom:60px;
+	background-image: url("b1.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.main-head .middle-head{
+	width:60%;
+	margin:auto;
+}
+.head-top:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.logo{
+	width:50%;
+	float:left;
+}
+.logo img{
+	width:130px;
+	height:40px;
+}
+.head-nav{
+	width:50%;
+	float:right;
+}
+.head-nav ul{
+	padding:0;
+	margin:0;
+}
+.head-nav ul li{
+	list-style:none;
+	display:inline-block;
+	margin-top:10px;
+	margin-left: 2px;
+}
+.head-nav ul li a{
+	text-decoration:none;
+	color:#fff;
+	padding:0 10px;
+	text-transform:uppercase;
+	font-size:12px;
+	position:relative;
+	
+}
+.head-nav ul li a:before{
+	content:'';
+	position:absolute;
+	top:105%;
+	left:2.5px;
+	width:0%;
+	height:8px;
+	border-bottom:3px solid #fff;
+}
+
+.head-nav ul li a:hover:before{
+	width:92%;
+}
+#active:before{
+	width:92%;
+}
+
+/* head first part end */
+
+
+.head-bottom{
+	margin-top:80px;
+	width:45%;
+}
+.head-bottom h1{
+	font-weight:bold;
+	font-size:35px;
+	color:#fff;
+	text-transform:uppercase;
+}
+.head-bottom h2{
+	color:#fff;
+	font-family:helveticaneue;
+	font-weight:100;
+	font-size:29px;
+	margin-bottom:50px;
+}
+.head-bottom a{
+	text-decoration:none;
+	color:#fff;
+	text-transform:uppercase;
+	padding:20px 45px;
+	background:#282828;
+	font-size:12px;
+	font-weight:700;
+	border-radius:35px;
+	position:relative;
+	margin-bottom:30px;
+}
+.head-bottom img{
+	height:30px;
+	width:18px;
+	overflow:hidden;
+	position:absolute;
+	top:12px;
+	left:25px;
+}
+.head-bottom a span{
+	margin-left:15px;
+}
+
+/* head part end */
+
+
+
+/* features part start */
+.section-head{
+	padding:50px 0;
+}
+.section-head .mid-head{
+	width:60%;
+	margin:auto;
+}
+
+.feature-top > h1{
+	font-size:35px;
+	color:#8a8a8a;
+	text-transform:uppercase;
+	font-weight:bold;
+	text-align:center;
+	margin:auto;
+	padding-bottom:20px;
+}
+.feature-top > p{
+	color:#3a3a3a;
+	font-size:14px;
+	width:78%;
+	text-align:center;
+	margin:auto;
+	padding-bottom:45px;
+}
+.box-feature{
+	width:100%;
+	text-align:center;
+	margin:auto;
+}
+.box{
+	display:inline-block;
+	width:25%;
+	padding:0 30px;
+}
+.box-feature .box > img{
+	height:125px;
+	width:125px;
+}
+.box-feature .box > h3{
+	text-transform:uppercase;
+	color:#000;
+}
+.box-feature .box > p{
+	font-size:13px;
+	color:#a2a2a2;
+}
+/* feature part end */
+
+
+/* picture download start */
+.picture{
+	padding-top:100px;
+	padding-bottom:120px;
+	background-image: url("nose-bg.png");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.picture .picture-mid{
+	width:60%;
+	margin:auto;
+}
+.picture-content{
+	width:60%;
+}
+.picture-content > h1{
+	text-transform:uppercase;
+	color:#fff;
+	font-size:35px;
+	padding-bottom:15px;
+}
+.picture-content h1 > span{
+	color:#f55150;
+}
+.picture-content > p{
+	color:#7a7c7b;
+	font-size:14px;
+	width:58%;
+	padding-bottom:30px;
+}
+.picture-content > a{
+	text-transform:uppercase;
+	background:#d9332d;
+	color:#fff;
+	padding:10px 20px;
+	font-size:10px;
+	text-decoration:none;
+	border-radius:35px;
+	font-weight:bold;
+}
+/* picture download end */
+
+
+
+
+/* again logo post */
+.top-post{
+	width:100%;
+	float:left;
+}
+.top-post img{
+	width:130px;
+	height:40px;
+	padding-bottom:30px;
+}
+.post{
+	padding:70px 0;
+	background:#2e2e38;
+	color:#fff;
+}
+.post .post-mid{
+	width:60%;
+	margin:auto;
+}
+.box-post{
+	width:100%;
+	margin:auto;
+}
+.box-p{
+	display:inline-block;
+	width:22%;
+	padding-right:88px;
+}
+.pop-post:after{
+	content:'';
+	display:block;
+	clear;both;
+}
+.pop-post .pop2 > img, .pop-post .pop3 > img, .pop-post .pop1 > img{
+	float:left;
+	height:35px;
+	width:45px;
+	padding-right:10px;
+	padding-bottom:8px;
+}
+
+.pop-post .pop1, .pop-post .pop2, .pop-post .pop3 p{
+	font-size:12px;
+	text-align:left;
+	padding-bottom:8px;
+}
+
+.pop-post1 .popp1 > p{
+	font-size:8px;
+}
+.pop-post1 .popp2 > p{
+	font-size:12px;
+}
+.pop-post1 .popp3 > p{
+	font-size:12px;
+	font-weight:bold;
+}
+.box-p > p{
+	font-size:12px;
+	font-style:italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
